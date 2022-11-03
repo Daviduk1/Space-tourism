@@ -1,0 +1,40 @@
+.crew {
+    background: url('/public/assets/crew/background-crew-desktop.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+    /* height: 100%; */
+}
+
+@media (max-width: 770px) {
+    .crew {
+        background: url(/public/assets/crew/background-crew-mobile.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        overflow: hidden;
+        height: 100%;
+    }
+
+    .crew p {
+        padding: 0px 20px;
+    }
+
+    .crew img {
+        padding: 20px 10px 0px 10px;
+    }
+    #crewBtn {
+        margin-bottom: 9rem;
+        
+    }
+
+
+
+}
+@media (min-width: 1024px) {
+    .crew {
+        background: url(/public/assets/crew/background-crew-tablet.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        overflow: hidden;
+    }
+}
